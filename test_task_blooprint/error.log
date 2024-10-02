@@ -1,0 +1,235 @@
+ERROR 2024-10-02 04:54:12,853 inventry Error fetching category list: Port could not be cast to integer value as '127.0.0.1:6379'
+ERROR 2024-10-02 04:54:12,855 log Internal Server Error: /api/v1/categories/
+ERROR 2024-10-02 04:54:12,860 basehttp "GET /api/v1/categories/ HTTP/1.1" 500 33
+INFO 2024-10-02 04:55:30,638 autoreload D:\test_task_blooprint\test_task\settings.py changed, reloading.
+INFO 2024-10-02 04:55:32,980 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 04:55:42,338 inventry Caching category list
+INFO 2024-10-02 04:55:42,340 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 99
+INFO 2024-10-02 04:57:53,020 inventry Category created and cache invalidated for category list
+INFO 2024-10-02 04:57:53,037 basehttp "POST /api/v1/categories/ HTTP/1.1" 201 44
+INFO 2024-10-02 04:58:09,182 inventry Caching category list
+INFO 2024-10-02 04:58:09,184 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 144
+INFO 2024-10-02 04:59:05,180 autoreload D:\test_task_blooprint\tes_app\serialization.py changed, reloading.
+INFO 2024-10-02 04:59:19,016 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 05:06:13,947 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 05:06:27,049 basehttp "GET / HTTP/1.1" 200 5852
+INFO 2024-10-02 05:06:28,979 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 05:06:29,046 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,048 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,055 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,056 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,067 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,101 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,157 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 05:06:29,825 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 05:06:49,248 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 05:06:49,594 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 06:09:46,733 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 06:09:53,960 basehttp "GET / HTTP/1.1" 200 5852
+WARNING 2024-10-02 06:09:54,511 log Not Found: /favicon.ico
+WARNING 2024-10-02 06:09:54,527 basehttp "GET /favicon.ico HTTP/1.1" 404 3909
+INFO 2024-10-02 06:09:58,301 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 06:09:58,707 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,709 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,718 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,719 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,752 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,827 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:58,921 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-10-02 06:09:59,878 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 06:14:05,905 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 06:14:13,393 basehttp "GET / HTTP/1.1" 200 5852
+INFO 2024-10-02 06:14:15,896 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 06:14:16,969 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 06:21:28,517 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 06:21:28,979 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 06:21:29,258 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2024-10-02 06:23:24,208 basehttp "POST /v1/api/register HTTP/1.1" 201 217
+WARNING 2024-10-02 06:24:00,768 log Bad Request: /v1/api/login
+WARNING 2024-10-02 06:24:00,772 basehttp "POST /v1/api/login HTTP/1.1" 400 34
+INFO 2024-10-02 06:24:31,000 basehttp "POST /v1/api/login HTTP/1.1" 200 814
+INFO 2024-10-02 06:25:26,019 inventry Caching category list
+INFO 2024-10-02 06:25:26,023 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 144
+INFO 2024-10-02 06:26:02,095 inventry Category created and cache invalidated for category list
+INFO 2024-10-02 06:26:02,099 basehttp "POST /api/v1/categories/ HTTP/1.1" 201 45
+INFO 2024-10-02 06:26:14,274 inventry Caching category list
+INFO 2024-10-02 06:26:14,279 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 190
+INFO 2024-10-02 06:26:44,270 inventry Returning cached categories
+INFO 2024-10-02 06:26:44,273 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 190
+INFO 2024-10-02 06:27:18,207 inventry Caching category with ID 3
+INFO 2024-10-02 06:27:18,212 basehttp "GET /api/v1/categories/3/ HTTP/1.1" 200 45
+INFO 2024-10-02 06:29:51,206 inventry Category with ID 2 deleted and cache invalidated
+INFO 2024-10-02 06:29:51,209 basehttp "DELETE /api/v1/categories/2/ HTTP/1.1" 204 0
+INFO 2024-10-02 06:30:03,901 inventry Caching category list
+INFO 2024-10-02 06:30:03,902 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 145
+INFO 2024-10-02 06:31:33,176 inventry Caching stock list
+INFO 2024-10-02 06:31:33,178 basehttp "GET /api/v1/stock/ HTTP/1.1" 200 52
+ERROR 2024-10-02 06:32:14,530 inventry Error creating stock item: {'product': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:32:14,535 log Internal Server Error: /api/v1/stock/
+ERROR 2024-10-02 06:32:14,537 basehttp "POST /api/v1/stock/ HTTP/1.1" 500 33
+ERROR 2024-10-02 06:32:31,732 inventry Error creating stock item: {'product': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:32:31,735 log Internal Server Error: /api/v1/stock/
+ERROR 2024-10-02 06:32:31,736 basehttp "POST /api/v1/stock/ HTTP/1.1" 500 33
+ERROR 2024-10-02 06:38:18,133 inventry Error creating stock item: {'product': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:38:18,135 log Internal Server Error: /api/v1/stock/
+ERROR 2024-10-02 06:38:18,185 basehttp "POST /api/v1/stock/ HTTP/1.1" 500 33
+ERROR 2024-10-02 06:38:33,789 inventry Error creating stock item: {'product': [ErrorDetail(string='Invalid pk "1" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:38:33,790 log Internal Server Error: /api/v1/stock/
+ERROR 2024-10-02 06:38:33,791 basehttp "POST /api/v1/stock/ HTTP/1.1" 500 33
+INFO 2024-10-02 06:39:19,689 basehttp "GET /api/v1/item/ HTTP/1.1" 200 52
+INFO 2024-10-02 06:39:45,511 basehttp "GET /api/v1/item/ HTTP/1.1" 200 52
+INFO 2024-10-02 06:40:25,676 inventry Product created and cache invalidated for product list
+INFO 2024-10-02 06:40:25,676 basehttp "POST /api/v1/item/ HTTP/1.1" 201 76
+INFO 2024-10-02 06:40:43,462 inventry Caching product with ID 1
+INFO 2024-10-02 06:40:43,463 basehttp "GET /api/v1/item/1/ HTTP/1.1" 200 76
+INFO 2024-10-02 06:42:24,139 inventry Stock item created and cache invalidated for stock list
+INFO 2024-10-02 06:42:24,145 basehttp "POST /api/v1/stock/ HTTP/1.1" 201 80
+INFO 2024-10-02 06:42:39,304 inventry Caching stock item with ID 1
+INFO 2024-10-02 06:42:39,306 basehttp "GET /api/v1/stock/1/ HTTP/1.1" 200 80
+ERROR 2024-10-02 06:43:36,035 log Internal Server Error: /api/v1/stock/1/
+Traceback (most recent call last):
+  File "D:\test_task_blooprint\tes_app\inventry.py", line 233, in update
+    response = super().update(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\mixins.py", line 67, in update
+    serializer.is_valid(raise_exception=True)
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\serializers.py", line 231, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'product': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\test_task_blooprint\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\test_task_blooprint\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test_task_blooprint\tes_app\inventry.py", line 240, in update
+    logger.error(f"Error updating stock item with ID {stock_id}: {str(e)}")
+                                                      ^^^^^^^^
+UnboundLocalError: cannot access local variable 'stock_id' where it is not associated with a value
+ERROR 2024-10-02 06:43:36,053 basehttp "PUT /api/v1/stock/1/ HTTP/1.1" 500 21558
+INFO 2024-10-02 06:49:01,829 inventry Product created and cache invalidated for product list
+INFO 2024-10-02 06:49:01,829 basehttp "POST /api/v1/item/ HTTP/1.1" 201 76
+ERROR 2024-10-02 06:50:45,317 inventry Error updating product with ID 2: {'category': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:50:45,319 log Internal Server Error: /api/v1/item/2/
+ERROR 2024-10-02 06:50:45,320 basehttp "PUT /api/v1/item/2/ HTTP/1.1" 500 33
+ERROR 2024-10-02 06:50:56,903 inventry Error updating product with ID 2: {'category': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:50:56,904 log Internal Server Error: /api/v1/item/2/
+ERROR 2024-10-02 06:50:56,905 basehttp "PUT /api/v1/item/2/ HTTP/1.1" 500 33
+INFO 2024-10-02 06:52:21,651 inventry Caching category list
+INFO 2024-10-02 06:52:21,653 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 145
+INFO 2024-10-02 06:52:54,811 inventry Category created and cache invalidated for category list
+INFO 2024-10-02 06:52:54,814 basehttp "POST /api/v1/categories/ HTTP/1.1" 201 45
+INFO 2024-10-02 06:53:14,714 inventry Caching category with ID 4
+INFO 2024-10-02 06:53:14,715 basehttp "GET /api/v1/categories/4/ HTTP/1.1" 200 45
+INFO 2024-10-02 06:54:54,608 inventry Caching category list
+INFO 2024-10-02 06:54:54,609 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 191
+INFO 2024-10-02 06:55:15,343 basehttp "GET /api/v1/item/ HTTP/1.1" 200 205
+ERROR 2024-10-02 06:56:05,819 inventry Error creating product: {'category': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:56:05,820 log Internal Server Error: /api/v1/item/
+ERROR 2024-10-02 06:56:05,821 basehttp "POST /api/v1/item/ HTTP/1.1" 500 33
+INFO 2024-10-02 06:56:19,702 inventry Product created and cache invalidated for product list
+INFO 2024-10-02 06:56:19,703 basehttp "POST /api/v1/item/ HTTP/1.1" 201 75
+INFO 2024-10-02 06:57:22,979 inventry Product with ID 3 updated and cache invalidated
+INFO 2024-10-02 06:57:22,981 basehttp "PUT /api/v1/item/3/ HTTP/1.1" 200 78
+INFO 2024-10-02 06:57:55,176 inventry Caching stock list
+INFO 2024-10-02 06:57:55,178 basehttp "GET /api/v1/stock/ HTTP/1.1" 200 132
+ERROR 2024-10-02 06:58:18,916 inventry Error creating stock item: {'product': [ErrorDetail(string='Invalid pk "4" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 06:58:18,917 log Internal Server Error: /api/v1/stock/
+ERROR 2024-10-02 06:58:18,920 basehttp "POST /api/v1/stock/ HTTP/1.1" 500 33
+INFO 2024-10-02 06:58:27,532 inventry Stock item created and cache invalidated for stock list
+INFO 2024-10-02 06:58:27,533 basehttp "POST /api/v1/stock/ HTTP/1.1" 201 80
+INFO 2024-10-02 06:58:49,300 inventry Stock item created and cache invalidated for stock list
+INFO 2024-10-02 06:58:49,300 basehttp "POST /api/v1/stock/ HTTP/1.1" 201 80
+INFO 2024-10-02 06:59:27,349 inventry Stock item with ID 3 updated and cache invalidated
+INFO 2024-10-02 06:59:27,394 basehttp "PUT /api/v1/stock/3/ HTTP/1.1" 200 80
+INFO 2024-10-02 07:06:52,116 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 07:06:56,053 basehttp "GET / HTTP/1.1" 200 5852
+INFO 2024-10-02 07:06:59,961 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 07:07:00,019 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,028 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,036 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,078 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,103 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,148 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:00,156 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:07:01,127 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 07:15:03,312 basehttp "GET /swagger HTTP/1.1" 200 1600
+INFO 2024-10-02 07:15:03,756 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13779
+INFO 2024-10-02 07:16:26,913 basehttp "POST /v1/api/register HTTP/1.1" 201 224
+INFO 2024-10-02 07:17:01,538 basehttp "POST /v1/api/login HTTP/1.1" 200 821
+INFO 2024-10-02 07:20:06,736 inventry Caching category list
+INFO 2024-10-02 07:20:06,738 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 191
+INFO 2024-10-02 07:21:05,649 inventry Category created and cache invalidated for category list
+INFO 2024-10-02 07:21:05,652 basehttp "POST /api/v1/categories/ HTTP/1.1" 201 47
+INFO 2024-10-02 07:21:38,905 inventry Caching category with ID 5
+INFO 2024-10-02 07:21:38,906 basehttp "GET /api/v1/categories/5/ HTTP/1.1" 200 47
+INFO 2024-10-02 07:22:23,681 inventry Category with ID 5 updated and cache invalidated
+INFO 2024-10-02 07:22:23,683 basehttp "PUT /api/v1/categories/5/ HTTP/1.1" 200 45
+INFO 2024-10-02 07:22:42,613 inventry Caching category list
+INFO 2024-10-02 07:22:42,614 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 237
+INFO 2024-10-02 07:23:11,717 inventry Category with ID 5 deleted and cache invalidated
+INFO 2024-10-02 07:23:11,718 basehttp "DELETE /api/v1/categories/5/ HTTP/1.1" 204 0
+INFO 2024-10-02 07:23:25,637 inventry Caching category list
+INFO 2024-10-02 07:23:25,639 basehttp "GET /api/v1/categories/ HTTP/1.1" 200 191
+INFO 2024-10-02 07:24:08,465 basehttp "GET /api/v1/item/ HTTP/1.1" 200 284
+INFO 2024-10-02 07:24:56,836 inventry Product created and cache invalidated for product list
+INFO 2024-10-02 07:24:56,842 basehttp "POST /api/v1/item/ HTTP/1.1" 201 76
+INFO 2024-10-02 07:25:32,113 inventry Caching product with ID 4
+INFO 2024-10-02 07:25:32,115 basehttp "GET /api/v1/item/4/ HTTP/1.1" 200 76
+ERROR 2024-10-02 07:26:37,235 inventry Error updating product with ID 4: {'category': [ErrorDetail(string='Invalid pk "2" - object does not exist.', code='does_not_exist')]}
+ERROR 2024-10-02 07:26:37,238 log Internal Server Error: /api/v1/item/4/
+ERROR 2024-10-02 07:26:37,240 basehttp "PUT /api/v1/item/4/ HTTP/1.1" 500 33
+INFO 2024-10-02 07:26:45,486 inventry Product with ID 4 updated and cache invalidated
+INFO 2024-10-02 07:26:45,488 basehttp "PUT /api/v1/item/4/ HTTP/1.1" 200 77
+INFO 2024-10-02 07:26:59,243 inventry Product created and cache invalidated for product list
+INFO 2024-10-02 07:26:59,244 basehttp "POST /api/v1/item/ HTTP/1.1" 201 76
+INFO 2024-10-02 07:27:12,203 basehttp "GET /api/v1/item/ HTTP/1.1" 200 439
+INFO 2024-10-02 07:27:48,318 inventry Product with ID 4 deleted and cache invalidated
+INFO 2024-10-02 07:27:48,320 basehttp "DELETE /api/v1/item/4/ HTTP/1.1" 204 0
+INFO 2024-10-02 07:27:59,183 basehttp "GET /api/v1/item/ HTTP/1.1" 200 361
+INFO 2024-10-02 07:28:33,020 inventry Caching stock list
+INFO 2024-10-02 07:28:33,021 basehttp "GET /api/v1/stock/ HTTP/1.1" 200 294
+INFO 2024-10-02 07:29:00,164 inventry Stock item created and cache invalidated for stock list
+INFO 2024-10-02 07:29:00,188 basehttp "POST /api/v1/stock/ HTTP/1.1" 201 80
+INFO 2024-10-02 07:29:12,314 inventry Caching stock list
+INFO 2024-10-02 07:29:12,319 basehttp "GET /api/v1/stock/ HTTP/1.1" 200 375
+INFO 2024-10-02 07:29:34,059 inventry Caching stock item with ID 4
+INFO 2024-10-02 07:29:34,061 basehttp "GET /api/v1/stock/4/ HTTP/1.1" 200 80
+INFO 2024-10-02 07:30:12,463 inventry Stock item with ID 4 updated and cache invalidated
+INFO 2024-10-02 07:30:12,469 basehttp "PUT /api/v1/stock/4/ HTTP/1.1" 200 80
+INFO 2024-10-02 07:30:32,117 inventry Stock item with ID 3 deleted and cache invalidated
+INFO 2024-10-02 07:30:32,119 basehttp "DELETE /api/v1/stock/3/ HTTP/1.1" 204 0
+INFO 2024-10-02 07:30:47,322 inventry Caching stock list
+INFO 2024-10-02 07:30:47,323 basehttp "GET /api/v1/stock/ HTTP/1.1" 200 294
+INFO 2024-10-02 07:59:49,601 autoreload D:\test_task_blooprint\test_task\urls.py changed, reloading.
+INFO 2024-10-02 07:59:53,187 autoreload Watching for file changes with StatReloader
+INFO 2024-10-02 07:59:55,112 basehttp "GET /swagger HTTP/1.1" 200 1592
+INFO 2024-10-02 07:59:55,192 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,193 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,203 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,207 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,217 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,225 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,240 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,677 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2024-10-02 07:59:55,722 basehttp "GET /swagger?format=openapi HTTP/1.1" 200 13771
